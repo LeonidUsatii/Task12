@@ -1,0 +1,41 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.input-container {
+  margin-top: 20px;
+}
+
+/* Уточняем какие input подходят */
+.input-container input[type='text'] {
+  padding: 10px;
+  font-size: 16px;
+  width: 335px;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#addTask {
+  margin-left: 5px;
+}
+
+ol {
+  margin-top: 15px;
+}
+
+li {
+  margin: 5px 0;
+  background-color: rgb(241, 247, 247);
+}
+li button {
+  position: relative;
+  left: 173px;
+}
